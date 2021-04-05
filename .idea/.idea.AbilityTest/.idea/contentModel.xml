@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="AbilityTest.sln" t="IncludeFlat" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="EGamePlay" t="Include">
+            <e p="Combat" t="Include">
+              <e p="CombatAttributeWindow.cs" t="Include" />
+              <e p="EGamePlayTools.cs" t="Include" />
+              <e p="SkillPlayableAsset.cs" t="Include" />
+              <e p="SkillTrack.cs" t="Include" />
+            </e>
+            <e p="ComponentViewEditor" t="Include">
+              <e p="ComponentViewEditor.cs" t="Include" />
+              <e p="Entity" t="Include">
+                <e p="EditorLayout.cs" t="Include" />
+                <e p="SerializationTypeExtension.cs" t="Include" />
+              </e>
+              <e p="ITypeDrawer.cs" t="Include" />
+              <e p="TypeDrawer" t="Include">
+                <e p="AnimationCurveTypeDrawer.cs" t="Include" />
+                <e p="BoolTypeDrawer.cs" t="Include" />
+                <e p="BoundsTypeDrawer.cs" t="Include" />
+                <e p="CharTypeDrawer.cs" t="Include" />
+                <e p="ColorTypeDrawer.cs" t="Include" />
+                <e p="DateTimeTypeDrawer.cs" t="Include" />
+                <e p="DoubleTypeDrawer.cs" t="Include" />
+                <e p="EnumTypeDrawer.cs" t="Include" />
+                <e p="FloatTypeDrawer.cs" t="Include" />
+                <e p="IntTypeDrawer.cs" t="Include" />
+                <e p="LongTypeDrawer.cs" t="Include" />
+                <e p="RectTypeDrawer.cs" t="Include" />
+                <e p="StringTypeDrawer.cs" t="Include" />
+                <e p="UnityObjectTypeDrawer.cs" t="Include" />
+                <e p="Vector2TypeDrawer.cs" t="Include" />
+                <e p="Vector3TypeDrawer.cs" t="Include" />
+                <e p="Vector4TypeDrawer.cs" t="Include" />
+              </e>
+              <e p="TypeDrawerAttribute.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ReferenceCollectorEditor" t="Include">
+            <e p="ReferenceCollectorEditor.cs" t="Include" />
+          </e>
+        </e>
+        <e p="EGamePlay" t="Include">
+          <e p="Combat" t="Include">
+            <e p="Ability" t="Include">
+              <e p="AbilityEntity.cs" t="Include" />
+              <e p="AbilityExecution.cs" t="Include" />
+            </e>
+            <e p="AbilityItem" t="Include">
+              <e p="AbilityItem.cs" t="Include" />
+            </e>
+            <e p="AbilityTask" t="Include">
+              <e p="AbilityTask.cs" t="Include" />
+              <e p="CastDirectFlyProjectileTask.cs" t="Include" />
+              <e p="CastTargetFlyProjectileTask.cs" t="Include" />
+              <e p="CreateColliderTask.cs" t="Include" />
+              <e p="CreateEffectTask.cs" t="Include" />
+              <e p="CreateExplosionTask.cs" t="Include" />
+              <e p="OnTriggerEnterCallback.cs" t="Include" />
+              <e p="PlayAnimationTask.cs" t="Include" />
+            </e>
+            <e p="Action" t="Include">
+              <e p="ActionPointManageComponent.cs" t="Include" />
+              <e p="AssignEffectAction.cs" t="Include" />
+              <e p="AttackAction.cs" t="Include" />
+              <e p="CombatAction.cs" t="Include" />
+              <e p="CureAction.cs" t="Include" />
+              <e p="DamageAction.cs" t="Include" />
+              <e p="MotionAction.cs" t="Include" />
+              <e p="SpellAction.cs" t="Include" />
+              <e p="TurnBaseActions" t="Include">
+                <e p="JumpToAction.cs" t="Include" />
+                <e p="TurnAction.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Attribute" t="Include">
+              <e p="AttributeComponent.cs" t="Include" />
+              <e p="FloatNumeric.cs" t="Include" />
+              <e p="HealthPoint.cs" t="Include" />
+              <e p="IntNumeric.cs" t="Include" />
+            </e>
+            <e p="CombatActionManageComponent.cs" t="Include" />
+            <e p="CombatContext.cs" t="Include" />
+            <e p="CombatEntity" t="Include">
+              <e p="CombatEntity.cs" t="Include" />
+            </e>
+            <e p="Condition" t="Include">
+              <e p="ConditionEntity.cs" t="Include" />
+              <e p="ConditionManageComponent.cs" t="Include" />
+              <e p="WhenInTimeNoDamageCondition.cs" t="Include" />
+            </e>
+            <e p="ConfigObject" t="Include">
+              <e p="AttributeConfigObject.cs" t="Include" />
+              <e p="Effect" t="Include">
+                <e p="AddShieldEffect.cs" t="Include" />
+                <e p="AddStatusEffect.cs" t="Include" />
+                <e p="AttributeNumericModifyEffect.cs" t="Include" />
+                <e p="ClearAllStatusEffect.cs" t="Include" />
+                <e p="CureEffect.cs" t="Include" />
+                <e p="CustomEffect.cs" t="Include" />
+                <e p="DamageEffect.cs" t="Include" />
+                <e p="Effect.cs" t="Include" />
+                <e p="RemoveStatusEffect.cs" t="Include" />
+                <e p="StackTagEffect.cs" t="Include" />
+              </e>
+              <e p="SkillConfigObject.cs" t="Include" />
+              <e p="StatusConfigObject.cs" t="Include" />
+            </e>
+            <e p="ItemData.cs" t="Include" />
+            <e p="Motion" t="Include">
+              <e p="MotionComponent.cs" t="Include" />
+            </e>
+            <e p="Skill" t="Include">
+              <e p="Attack" t="Include">
+                <e p="AttackAbility.cs" t="Include" />
+                <e p="AttackExecution.cs" t="Include" />
+              </e>
+              <e p="ExecutionTimeline" t="Include">
+                <e p="ColliderSpawnEmitter.cs" t="Include" />
+              </e>
+              <e p="SkillAbility.cs" t="Include" />
+              <e p="SkillDefine.cs" t="Include" />
+              <e p="SkillExecution.cs" t="Include" />
+            </e>
+            <e p="Status" t="Include">
+              <e p="Logic" t="Include">
+                <e p="LogicActionTriggerComponent.cs" t="Include" />
+                <e p="LogicConditionTriggerComponent.cs" t="Include" />
+                <e p="LogicEntity.cs" t="Include" />
+                <e p="LogicIntervalTriggerComponent.cs" t="Include" />
+              </e>
+              <e p="StatusAbility.cs" t="Include" />
+              <e p="StatusExecution.cs" t="Include" />
+              <e p="StatusLifeTimeComponent.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Component" t="Include">
+            <e p="ConfigManageComponent.cs" t="Include" />
+          </e>
+          <e p="Config" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="EquipmentConfig.cs" t="Include" />
+              <e p="SkillAddStatusEffectConfig.cs" t="Include" />
+              <e p="SkillConfig.cs" t="Include" />
+              <e p="SkillDamageEffectConfig.cs" t="Include" />
+              <e p="UnitConfig.cs" t="Include" />
+            </e>
+            <e p="Texts" t="Include">
+              <e p="EquipmentConfig.txt" t="Include" />
+              <e p="SkillAddStatusEffectConfig.txt" t="Include" />
+              <e p="SkillConfig.txt" t="Include" />
+              <e p="SkillDamageEffectConfig.txt" t="Include" />
+              <e p="UnitConfig.txt" t="Include" />
+            </e>
+          </e>
+          <e p="EGamePlayInit.cs" t="Include" />
+          <e p="Entity" t="Include">
+            <e p="Component.cs" t="Include" />
+            <e p="ComponentView.cs" t="Include" />
+            <e p="Entity.cs" t="Include" />
+            <e p="EntityComponent.cs" t="Include" />
+            <e p="EventComponent.cs" t="Include" />
+            <e p="IdFactory.cs" t="Include" />
+            <e p="MasterEntity.cs" t="Include" />
+            <e p="UpdateComponent.cs" t="Include" />
+          </e>
+          <e p="Helper" t="Include">
+            <e p="ETHelper" t="Include">
+              <e p="ACategory.cs" t="Include" />
+              <e p="Async" t="Include">
+                <e p="AsyncETTaskCompletedMethodBuilder.cs" t="Include" />
+                <e p="AsyncETTaskMethodBuilder.cs" t="Include" />
+                <e p="AsyncETVoidMethodBuilder.cs" t="Include" />
+                <e p="AsyncMethodBuilderAttribute.cs" t="Include" />
+                <e p="ETCancellationToken.cs" t="Include" />
+                <e p="ETTask.cs" t="Include" />
+                <e p="ETTaskCompleted.cs" t="Include" />
+                <e p="ETTaskCompletionSource.cs" t="Include" />
+                <e p="ETTaskHelper.cs" t="Include" />
+                <e p="ETVoid.cs" t="Include" />
+                <e p="IAwaiter.cs" t="Include" />
+              </e>
+              <e p="BaseAttribute.cs" t="Include" />
+              <e p="ConfigAttribute.cs" t="Include" />
+              <e p="Helper" t="Include">
+                <e p="ByteHelper.cs" t="Include" />
+                <e p="EnumHelper.cs" t="Include" />
+                <e p="FileHelper.cs" t="Include" />
+                <e p="IdGenerater.cs" t="Include" />
+                <e p="MD5Helper.cs" t="Include" />
+                <e p="MethodInfoHelper.cs" t="Include" />
+                <e p="NetHelper.cs" t="Include" />
+                <e p="ObjectHelper.cs" t="Include" />
+                <e p="RandomHelper.cs" t="Include" />
+                <e p="StringHelper.cs" t="Include" />
+                <e p="TimeHelper.cs" t="Include" />
+              </e>
+              <e p="IConfig.cs" t="Include" />
+              <e p="JsonHelper.cs" t="Include" />
+              <e p="MultiMap.cs" t="Include" />
+              <e p="ReferenceCollector.cs" t="Include" />
+              <e p="ThreadSynchronizationContext.cs" t="Include" />
+              <e p="TimerComponent.cs" t="Include" />
+            </e>
+            <e p="ExpressionHelper.cs" t="Include" />
+            <e p="ExpressionParser" t="Include">
+              <e p="ExpressionParser.cs" t="Include" />
+            </e>
+            <e p="GameTimer.cs" t="Include" />
+            <e p="GenericTypeHelper.cs" t="Include" />
+            <e p="LitJson" t="Include">
+              <e p="Extensions.cs" t="Include" />
+              <e p="IJsonWrapper.cs" t="Include" />
+              <e p="JsonData.cs" t="Include" />
+              <e p="JsonException.cs" t="Include" />
+              <e p="JsonMapper.cs" t="Include" />
+              <e p="JsonMockWrapper.cs" t="Include" />
+              <e p="JsonReader.cs" t="Include" />
+              <e p="JsonWriter.cs" t="Include" />
+              <e p="Lexer.cs" t="Include" />
+              <e p="Netstandard15Polyfill.cs" t="Include" />
+              <e p="ParserToken.cs" t="Include" />
+              <e p="UnityTypeBindings.cs" t="Include" />
+            </e>
+            <e p="LogHelper.cs" t="Include" />
+            <e p="RandomHelper.cs" t="Include" />
+            <e p="RaycastHelper.cs" t="Include" />
+          </e>
+          <e p="WorkFlow" t="Include">
+            <e p="WorkEndFlow.cs" t="Include" />
+            <e p="WorkFlow.cs" t="Include" />
+            <e p="WorkFlowSource.cs" t="Include" />
+            <e p="WorkRestartFlow.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Sirenix" t="Include">
+            <e p="Odin Inspector" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="AssemblyImportSettingsAutomation.cs" t="Include" />
+                  <e p="BuildAOTAutomation.cs" t="Include" />
+                  <e p="EnsureOdinInspectorDefine.cs" t="Include" />
+                  <e p="FixBrokenUnityObjectWrapperDrawer.cs" t="Include" />
+                  <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef" t="Include" />
+                  <e p="SyncListDrawer.cs" t="Include" />
+                  <e p="SyncVarAttributeDrawer.cs" t="Include" />
+                  <e p="Vector2IntMinMaxAttributeDrawer.cs" t="Include" />
+                  <e p="VectorIntDrawers.cs" t="Include" />
+                  <e p="VectorIntPropertyResolvers.cs" t="Include" />
+                </e>
+                <e p="SerializedNetworkBehaviour.cs" t="Include" />
+                <e p="Sirenix.OdinInspector.CompatibilityLayer.asmdef" t="Include" />
+                <e p="VectorIntFormatters.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Sirenix.OdinInspector.CompatibilityLayer.csproj" t="IncludeRecursive" />
+      <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" t="IncludeRecursive" />
+      <e p="Temp/Bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.3/resharper-host/local/Transient/Rider/v203/SolutionCaches/_AbilityTest.1811362998.00" t="ExcludeRecursive" />
+  </component>
+</project>
